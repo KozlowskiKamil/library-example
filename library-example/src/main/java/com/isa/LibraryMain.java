@@ -1,6 +1,6 @@
 package com.isa;
 
-public class Main {
+public class LibraryMain {
     public static void main(String[] args) {
         String text = "Witaj XYZ!";
 
