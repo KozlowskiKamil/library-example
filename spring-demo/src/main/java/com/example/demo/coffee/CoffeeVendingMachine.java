@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class CoffeeVendingMachine {
     private final CoffeeMaker coffeeMaker;
 
-    public CoffeeVendingMachine(@Qualifier("cappuccinoMaker") CoffeeMaker coffeeMaker) {
+    public CoffeeVendingMachine(CoffeeMaker coffeeMaker) {
         this.coffeeMaker = coffeeMaker;
     }
 
